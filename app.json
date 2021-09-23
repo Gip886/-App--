@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/discuss/discuss",
+    "pages/order/order"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校园帮帮",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "主页"
+    }, {
+      "pagePath": "pages/discuss/discuss",
+      "text": "讨论区"
+    },{
+      "pagePath": "pages/order/order",
+      "text": "订单"
+    },{
+      "pagePath": "pages/my/my"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
