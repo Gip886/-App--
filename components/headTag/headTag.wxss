@@ -1,0 +1,26 @@
+/* components/headTag.wxss */
+.header {
+  height: 50rpx;
+  width: 100%;
+  padding: 10rpx;
+}
+
+.header .icon {
+  height: 100%;
+  border: 5rpx solid orange;
+  border-radius: 15rpx;
+  margin: 0 10rpx;
+}
+
+.header text {
+  font-size: 32rpx;
+  font-weight: 700;
+  line-height: 50rpx;
+}
+
+.header image {
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right: 20rpx;
+}

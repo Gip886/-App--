@@ -1,4 +1,158 @@
 <view class="homeContainer">
-
-
+<scroll-view>
+    <!-- 轮播图区域 -->
+    <swiper class="banners" indicator-dots circular autoplay indicator-color="{{indicatorColor}}"
+      indicator-active-color="{{indicatorActiveColor}}">
+      <swiper-item>
+        <image src="/static/imgs/home/banner.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/static/imgs/home/back.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/static/imgs/home/banner.jpg"></image>
+      </swiper-item>
+    </swiper>
+    <!-- 功能选择入口 -->
+    <view class="functionContainer">
+      <view class="header">
+        <text class="icon"></text>
+        <text class="content">足不出户，直通校园</text>
+      </view>
+      <view class="fItems">
+        <view class="fItem">
+          <view class="left">
+            <text class="title">取快递</text>
+            <text class="show">顺丰菜鸟</text>
+          </view>
+          <image class="icon" src="/static/imgs/home/快递.png"></image>
+        </view>
+        <view class="fItem">
+          <view class="left">
+            <text class="title">寄快递</text>
+            <text class="show">顺丰申通</text>
+          </view>
+          <image class="icon" src="/static/imgs/home/货车.png"></image>
+        </view>
+        <view class="fItem">
+          <view class="left">
+            <text class="title">食堂超市</text>
+            <text class="show">代卖代拿</text>
+          </view>
+          <image class="icon" src="/static/imgs/home/商店.png"></image>
+        </view>
+        <view class="fItem">
+          <view class="left">
+            <text class="title">万能任务</text>
+            <text class="show">无所无能</text>
+          </view>
+          <image class="icon" src="/static/imgs/home/快递.png"></image>
+        </view>
+      </view>
+  
+    </view>
+    <!-- 排行榜 -->
+    <view class="paihangContainer">
+      <head-tag color="red" url="/pages/rankList/rankList">排行榜</head-tag>
+      <swiper next-margin="50rpx" class="swiperContainer">
+        <swiper-item>
+          <view class="items">
+            <view class="item">
+              <image src="/static/imgs/home/头像.jpg"></image>
+              <text class="name">Gip</text>
+              <text class="price">￥211.00</text>
+            </view>
+            <view class="item">
+              <image src="/static/imgs/home/头像.jpg"></image>
+              <text class="name">Gip</text>
+              <text class="price">￥211.00</text>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class="items">
+            <view class="item">
+              <image src="/static/imgs/home/头像.jpg"></image>
+              <text class="name">Gip</text>
+              <text class="price">￥211.00</text>
+            </view>
+            <view class="item">
+              <image src="/static/imgs/home/商店.png"></image>
+              <text class="name">Gip</text>
+              <text class="price">￥211.00</text>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class="items">
+            <view class="item">
+              <image src="/static/imgs/home/头像.jpg"></image>
+              <text class="name">Gip</text>
+              <text class="price">￥211.00</text>
+            </view>
+            <view class="item">
+              <image src="/static/imgs/home/商店.png"></image>
+              <text class="name">Gip</text>
+              <text class="price">￥211.00</text>
+            </view>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+    <!-- 最新订单 -->
+    <view class="newOrder">
+      <head-tag url="/pages/newOrder/newOrder" color="#3498db">最新订单</head-tag>
+      <view class="items">
+      
+        <view class="item">
+          <view class="left">
+           <view class="msg">
+              <text class="title-icon">取</text>
+              <text class="title">丰巢取快递546555555555555555555555555555555555</text>
+           </view>
+            <view class="detail">
+            <text class="time">3个月前</text>
+            <text class="time">出发时间</text>
+            </view>
+          </view>
+          <view class="right">      
+            <text class="price">￥2.00</text>
+            <text class="state">已完成</text>
+          </view>
+        </view>
+        <view class="item">
+          <view class="left">
+           <view class="msg">
+              <text class="title-icon">取</text>
+              <text class="title">丰巢取快递546555555555555555555555555555555555</text>
+           </view>
+            <view class="detail">
+            <text class="time">3个月前</text>
+            <text class="time">出发时间</text>
+            </view>
+          </view>
+          <view class="right">      
+            <text class="price">￥2.00</text>
+            <text class="state">已完成</text>
+          </view>
+        </view>
+        <view class="item">
+          <view class="left">
+           <view class="msg">
+              <text class="title-icon">取</text>
+              <text class="title">丰巢取快递546555555555555555555555555555555555</text>
+           </view>
+            <view class="detail">
+            <text class="time">3个月前</text>
+            <text class="time">出发时间</text>
+            </view>
+          </view>
+          <view class="right">      
+            <text class="price">￥2.00</text>
+            <text class="state">已完成</text>
+          </view>
+        </view>
+      </view>
+    </view>
+</scroll-view>
 </view>

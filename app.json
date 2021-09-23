@@ -1,10 +1,13 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/rankList/rankList",
     "pages/index/index",
     "pages/logs/logs",
     "pages/discuss/discuss",
-    "pages/order/order"
+    "pages/order/order",
+    "pages/my/my",
+    "pages/newOrder/newOrder"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,18 +16,33 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "主页"
-    }, {
-      "pagePath": "pages/discuss/discuss",
-      "text": "讨论区"
-    },{
-      "pagePath": "pages/order/order",
-      "text": "订单"
-    },{
-      "pagePath": "pages/my/my"
-    }]
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "/static/imgs/tabBar/home.png",
+        "selectedIconPath": "/static/imgs/tabBar/home-selected.png"
+      },
+      {
+        "pagePath": "pages/discuss/discuss",
+        "text": "讨论区",
+        "iconPath": "/static/imgs/tabBar/discuss.png",
+        "selectedIconPath": "/static/imgs/tabBar/discuss-selected.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "/static/imgs/tabBar/order.png",
+        "selectedIconPath": "/static/imgs/tabBar/order-selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/static/imgs/tabBar/my.png",
+        "selectedIconPath": "/static/imgs/tabBar/my-selected.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

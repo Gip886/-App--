@@ -1,1 +1,231 @@
 /* pages/home/home.wxss */
+
+/* 页面容器 */
+.homeContainer {
+  height: 100vh;
+}
+
+/* 轮播图区域 */
+.banners {
+  width: 100%;
+  height: 300rpx;
+}
+
+.banners image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 功能选择区域 */
+.functionContainer {
+  width: 100%;
+  background-color: white;
+  padding: 10rpx;
+}
+
+.functionContainer .header {
+  width: 100%;
+  margin: 10rpx;
+}
+
+.functionContainer .header .icon {
+  height: 100%;
+  border: 5rpx solid orange;
+  border-radius: 15rpx;
+  margin: 0 10rpx;
+}
+
+.functionContainer .header text {
+  font-size: 32rpx;
+  font-weight: 700;
+}
+
+.functionContainer .fItems {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.functionContainer .fItem {
+  display: flex;
+  width: 300rpx;
+  position: relative;
+  height: 150rpx;
+  /* border: 1rpx solid black; */
+  box-sizing: border-box;
+  margin: 15rpx 0;
+  align-items: center;
+  background-color: rgba(255, 165, 0, 0.1);
+  box-shadow: 0 0 3rpx #141414;
+}
+
+.fItem .left {
+  width: 50%;
+  margin: 10rpx;
+  letter-spacing: 4rpx
+}
+
+.fItem .left .title {
+  display: block;
+  font-weight: 600;
+  font-size: 30rpx;
+}
+
+.fItem .left .show {
+  font-size: 25rpx;
+  background-color: orange;
+  color: white;
+  padding: 5rpx;
+}
+
+.fItem .icon {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  bottom: 5rpx;
+  right: 10rpx;
+}
+
+/* 其他三个item样式颜色 */
+.functionContainer .fItems .fItem:nth-child(2) {
+  background-color: rgba(19, 34, 122, 0.1);
+}
+
+.functionContainer .fItems .fItem:nth-child(2) .show {
+  background-color: #13227a
+}
+
+.functionContainer .fItems .fItem:nth-child(3) {
+  background-color: rgba(89, 170, 255, 0.1);
+}
+
+.functionContainer .fItems .fItem:nth-child(3) .show {
+  background-color: #59aaff
+}
+
+.functionContainer .fItems .fItem:nth-child(4) {
+  background-color: rgba(215, 40, 34, 0.1);
+}
+
+.functionContainer .fItems .fItem:nth-child(4) .show {
+  background-color: #d72822
+}
+
+/* 排行榜区域 */
+.paihangContainer {
+  background-color: white;
+  width: 100%;
+}
+
+.paihangContainer .swiperContainer {
+  height: 200rpx;
+}
+
+.paihangContainer .item image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 2rpx black;
+  margin-right: 20rpx;
+}
+
+.paihangContainer .item {
+  position: relative;
+  display: flex;
+  /* border-top: 1rpx solid rgba(19, 34, 122, 0.1); */
+  padding: 10rpx;
+}
+
+.paihangContainer .item .name {
+  line-height: 80rpx;
+  height: 80rpx;
+  color: rgb(138, 137, 137);
+  font-size: 28rpx;
+}
+
+.paihangContainer .item .price {
+  position: absolute;
+  right: 15rpx;
+  line-height: 80rpx;
+  height: 100rpx;
+  color: coral;
+  font-weight: 600;
+}
+
+/* 最新订单区域 */
+.newOrder .items {
+  padding: 0 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newOrder .items .item {
+  padding: 10rpx;
+  margin: 20rpx 0;
+  width: 100%;
+  /* border: 1rpx solid red; */
+  border-radius: 15rpx;
+  box-shadow: 0 0 8rpx rgb(180, 177, 177);
+  display: flex;
+  font-size: 28rpx;
+}
+
+.newOrder .items .item .left {
+  flex: 1;
+}
+
+.newOrder .items .item .left .msg {
+  height: 50rpx;
+  line-height: 50rpx;
+  width: 500rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.newOrder .items .item .left .detail {
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-left: 50rpx;
+}
+
+.newOrder .items .item .left .detail text {
+  background-color: rgba(224, 199, 190, 0.226);
+  margin: 0 10rpx;
+  color: #fc5d02;
+  padding: 0 10rpx;
+  font-size: 20rpx;
+  border-radius: 15rpx;
+  letter-spacing: 2rpx;
+}
+
+.newOrder .items .item .left .msg .title-icon {
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgb(238, 146, 84);
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+  margin-right: 15rpx;
+  font-size: 26rpx;
+}
+
+.newOrder .items .item .right {
+  width: 100rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.newOrder .items .item .right .price {
+  color: rgb(8, 189, 129);
+  font-weight: 500;
+}
+
+.newOrder .items .item .right .state {
+  font-size: 20rpx;
+}

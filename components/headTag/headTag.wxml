@@ -1,0 +1,7 @@
+<view class="header" bindtap="goTo">
+  <text class="icon" style="border: 5rpx solid {{color}}"></text>
+  <text class="content">
+    <slot></slot>
+  </text>
+  <image src="/static/imgs/headTag/箭头.png"></image>
+</view>

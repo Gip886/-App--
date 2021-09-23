@@ -1,12 +1,11 @@
-// pages/home/home.js
+// pages/newOrder/newOrder.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    indicatorColor: 'rgba(0, 0, 0, .3)',
-    indicatorActiveColor: '#1296db'
+
   },
 
   /**
