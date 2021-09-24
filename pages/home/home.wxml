@@ -104,7 +104,7 @@
       <head-tag url="/pages/newOrder/newOrder" color="#3498db">最新订单</head-tag>
       <view class="items">
       
-        <view class="item">
+        <view class="item" bindtap="goToOrderDetail">
           <view class="left">
            <view class="msg">
               <text class="title-icon">取</text>
@@ -120,7 +120,7 @@
             <text class="state">已完成</text>
           </view>
         </view>
-        <view class="item">
+        <view class="item" bindtap="goToOrderDetail">
           <view class="left">
            <view class="msg">
               <text class="title-icon">取</text>
@@ -136,7 +136,7 @@
             <text class="state">已完成</text>
           </view>
         </view>
-        <view class="item">
+        <view class="item" bindtap="goToOrderDetail">
           <view class="left">
            <view class="msg">
               <text class="title-icon">取</text>

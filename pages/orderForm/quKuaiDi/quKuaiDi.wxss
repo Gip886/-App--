@@ -1,0 +1,43 @@
+/* pages/orderForm/quKuaiDi/quKuaiDi.wxss */
+.Container {
+  width: 100%;
+  background-color: #f3f3f3;
+  height: 100vh;
+}
+
+.header {
+  height: 150rpx;
+  background-color: #fff;
+  box-shadow: 0 0 2rpx #ededed;
+  display: flex;
+  padding: 20rpx;
+}
+
+.header .content {
+  background-color: #f3f3f3;
+  padding: 20rpx;
+  font-size: 28rpx;
+  color: #7a7979d8;
+}
+/* 上传图片区域 */
+.upload{
+  margin-top: 20rpx;
+  width: 100%;
+  background-color: #fff;
+  /* border: 1rpx solid black; */
+  padding: 20rpx;
+}
+.upload .title{
+  margin-bottom: 20rpx;
+  font-weight: 500;
+}
+
+.form .must{
+  color: orange;
+}
+.form .van-cell-text{
+  color: black;
+}
+.form .content{
+  color: rgb(224, 132, 27);
+}

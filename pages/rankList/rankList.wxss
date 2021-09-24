@@ -26,16 +26,28 @@
   margin: auto;
 }
 
+.items .item .left .index {
+  width: 80rpx;
+  height: 80rpx;
+  margin: auto;
+  text-align: center;
+  font-size: 32rpx;
+  color: #636161cb;
+  font-weight: 500;
+}
+
 .items .item .center {
   flex: 1;
   display: flex;
 }
+
 
 .items .item .center image {
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
   box-shadow: 2rpx 2rpx 10rpx #797676;
+
 }
 
 .items .item .center .userName {

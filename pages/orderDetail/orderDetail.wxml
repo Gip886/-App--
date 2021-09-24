@@ -1,0 +1,68 @@
+<!--pages/orderDetail/orderDetail.wxml-->
+
+<view class="orderDetail-wrapper">
+  <map name="" class="map" setting="{{setting}}" id="mapId" latitude="{{latitude}}" longitude="{{longitude}}"
+    markers="{{markers}}" covers="{{covers}}">
+    <view marker-id="1"></view>
+  </map>
+  <view class="header">
+    <view class="title">订单详情</view>
+    <view class="content">[菜鸟驿站] 你有*****个包裹到航海学院驿站</view>
+  </view>
+  <!-- 订单列表 -->
+  <view class="order-info">
+    <view class="item">
+      <text class="left">收件人</text>
+      <text class="right">张三丰</text>
+    </view>
+    <view class="item">
+      <text class="left">联系电话</text>
+      <text class="right iconfont icon-dianhua">400823823823</text>
+    </view>
+    <view class="item">
+      <text class="left">收件人</text>
+      <text class="right">张三丰</text>
+    </view>
+    <view class="item">
+      <text class="left">收件人</text>
+      <text class="right">张三丰</text>
+    </view>
+    <view class="item">
+      <text class="left">收件人</text>
+      <text class="right">张三丰</text>
+    </view>
+    <view class="item">
+      <text class="left">收件人</text>
+      <text class="right">张三丰</text>
+    </view>
+    <view class="item">
+      <text class="left">收件人</text>
+      <text class="right">张三丰</text>
+    </view>
+    <view class="item">
+      <text class="left">收件人</text>
+      <text class="right">张三丰</text>
+    </view>
+    <view class="item">
+      <text class="left">收件人</text>
+      <text class="right">张三丰</text>
+    </view>
+    <view class="item">
+      <text class="left">收件人</text>
+      <text class="right">张三丰</text>
+    </view>
+    <view class="item">
+      <text class="left">收件人</text>
+      <text class="right">张三丰</text>
+    </view>
+  </view>
+  <!-- 底部操作区 -->
+  <view class="controlContainer">
+    <view class="left" bindtap="handleContact">
+      <text>在线联系</text>
+    </view>
+    <view class="right" bindtap="handleOrder">
+      <text>接单</text>
+    </view>
+  </view>
+</view>

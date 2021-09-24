@@ -16,6 +16,16 @@ Page({
 
   },
 
+  // 跳转到订单详情界面
+  goToOrderDetail(event){
+    console.log(event)
+    wx.navigateTo({
+      url: '/pages/orderDetail/orderDetail',
+    })
+  },
+
+
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

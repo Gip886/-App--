@@ -3,7 +3,7 @@
   <view class="items">
     <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <image src="/static/imgs/rankList/奖牌.png"></image>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>
@@ -15,7 +15,7 @@
     </view>
     <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <image src="/static/imgs/rankList/银牌.png"></image>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>
@@ -27,7 +27,7 @@
     </view>
     <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <image src="/static/imgs/rankList/铜牌.png"></image>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>
@@ -39,7 +39,8 @@
     </view>
     <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <!-- <image src="/static/imgs/home/头像.jpg"></image> -->
+        <view class="index">4</view>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>
@@ -48,9 +49,11 @@
       <view class="right">
         <text>￥211.00</text>
       </view>
-    </view> <view class="item">
+    </view>
+    <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <!-- <image src="/static/imgs/home/头像.jpg"></image> -->
+        <view class="index">4</view>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>
@@ -59,9 +62,11 @@
       <view class="right">
         <text>￥211.00</text>
       </view>
-    </view> <view class="item">
+    </view>
+    <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <!-- <image src="/static/imgs/home/头像.jpg"></image> -->
+        <view class="index">4</view>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>
@@ -70,9 +75,11 @@
       <view class="right">
         <text>￥211.00</text>
       </view>
-    </view> <view class="item">
+    </view>
+    <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <!-- <image src="/static/imgs/home/头像.jpg"></image> -->
+        <view class="index">4</view>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>
@@ -81,9 +88,11 @@
       <view class="right">
         <text>￥211.00</text>
       </view>
-    </view> <view class="item">
+    </view>
+    <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <!-- <image src="/static/imgs/home/头像.jpg"></image> -->
+        <view class="index">4</view>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>
@@ -92,9 +101,11 @@
       <view class="right">
         <text>￥211.00</text>
       </view>
-    </view> <view class="item">
+    </view>
+    <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <!-- <image src="/static/imgs/home/头像.jpg"></image> -->
+        <view class="index">4</view>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>
@@ -103,9 +114,11 @@
       <view class="right">
         <text>￥211.00</text>
       </view>
-    </view> <view class="item">
+    </view>
+    <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <!-- <image src="/static/imgs/home/头像.jpg"></image> -->
+        <view class="index">4</view>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>
@@ -114,31 +127,11 @@
       <view class="right">
         <text>￥211.00</text>
       </view>
-    </view> <view class="item">
+    </view>
+    <view class="item">
       <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
-      </view>
-      <view class="center">
-        <image src="/static/imgs/home/头像.jpg"></image>
-        <text class="userName">往往人才</text>
-      </view>
-      <view class="right">
-        <text>￥211.00</text>
-      </view>
-    </view> <view class="item">
-      <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
-      </view>
-      <view class="center">
-        <image src="/static/imgs/home/头像.jpg"></image>
-        <text class="userName">往往人才</text>
-      </view>
-      <view class="right">
-        <text>￥211.00</text>
-      </view>
-    </view> <view class="item">
-      <view class="left">
-        <image src="/static/imgs/home/头像.jpg"></image>
+        <!-- <image src="/static/imgs/home/头像.jpg"></image> -->
+        <view class="index">4</view>
       </view>
       <view class="center">
         <image src="/static/imgs/home/头像.jpg"></image>

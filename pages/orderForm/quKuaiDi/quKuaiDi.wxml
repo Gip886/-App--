@@ -1,0 +1,42 @@
+<!--pages/orderForm/quKuaiDi/quKuaiDi.wxml-->
+<view class="Container">
+  <view class="header">
+    <view class="content">
+      可直接将取件短信粘贴此处。示例：【菜鸟裹裹】您的快递........（xx快递）已送到.......
+    </view>
+  </view>
+  <!-- 上传图片区域 -->
+  <view class="upload">
+    <view class="title">上传图片</view>
+    <van-uploader bind:delete="delete" file-list="{{ fileList }}" deletable="{{ true }}" multiple="{{true}}"
+      bind:after-read="afterRead" max-count="3" />
+  </view>
+  <!-- 选择表单区域 -->
+  <view class="form">
+    <van-cell-group title="分组1">
+      <view class="item">
+        <van-cell is-link bind:click="showPopup">
+          <view slot="icon">
+            <van-icon name="chat-o" color="#1989fa" />
+          </view>
+          <view slot="title">
+            <view class="van-cell-text">在哪里取件<text class="must">(必填)</text></view>
+          </view>
+          <view class="content">111</view>
+        </van-cell>
+        <van-popup show="{{ show }}" bind:close="onClose" position="bottom" custom-style="height: 50%;"
+          bind:close="onClose" round>
+
+          <van-picker show-toolbar title="选择你要的选项" columns="{{ columns }}" bind:cancel="onCancel" bind:confirm="onConfirm" loading="{{isLoading}}" />
+
+          <van-toast id="van-toast" />
+
+        </van-popup>
+      </view>
+      <van-cell title="单元格" is-link value="内容" />
+    </van-cell-group>
+    <van-cell-group title="分组2">
+      <van-cell title="单元格" is-link value="内容" />
+    </van-cell-group>
+  </view>
+</view>
