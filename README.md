@@ -19,5 +19,3 @@
 ![image-20210925214256003](https://cdn.jsdelivr.net/gh/Gip886/picture/img/20210925214257.png)
 
 ![image-20210925214316914](https://cdn.jsdelivr.net/gh/Gip886/picture/img/20210925214318.png)
-
-![image-20210925214333580](https://cdn.jsdelivr.net/gh/Gip886/picture/img/20210925214334.png)
