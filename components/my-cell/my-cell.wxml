@@ -1,0 +1,24 @@
+<!--components/my-cell/my-cell.wxml-->
+<view class="myCellContainer">
+  <!-- 单元格 -->
+  <van-cell is-link bind:click="showPopup">
+    <view slot="icon">
+      <van-icon name="{{cellItem.icon?cellItem.icon:''}}" color="#1989fa" />
+    </view>
+    <view slot="title">
+      <view class="van-cell-text">{{cellItem.title?cellItem.title:'默认title'}}<text
+          class="must">{{cellItem.must?'(必填)':''}}</text></view>
+    </view>
+    <view class="content">{{currentColumn}}</view>
+  </van-cell>
+  <!-- 弹出层 -->
+  <van-popup show="{{ show }}" bind:close="onClose" position="bottom" custom-style="height: 40%;" bind:close="onClose"
+    round>
+
+    <!-- 普通选择器 -->
+    <van-picker show-toolbar columns="{{ columns }}" bind:cancel="onCancel" bind:confirm="onConfirm"
+      loading="{{isLoading}}" />
+
+
+  </van-popup>
+</view>

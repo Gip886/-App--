@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/orderForm/quKuaiDi/quKuaiDi",
     "pages/home/home",
+    "pages/orderForm/quKuaiDi/quKuaiDi",
     "pages/orderDetail/orderDetail",
     "pages/rankList/rankList",
     "pages/index/index",

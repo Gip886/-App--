@@ -1,0 +1,12 @@
+/* components/my-cell/my-cell.wxss */
+.must {
+  color: orange;
+}
+
+.van-cell-text {
+  color: black;
+}
+
+.content {
+  color: #7e7676;
+}

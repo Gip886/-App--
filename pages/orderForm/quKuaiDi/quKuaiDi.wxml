@@ -14,29 +14,27 @@
   <!-- 选择表单区域 -->
   <view class="form">
     <van-cell-group title="分组1">
-      <view class="item">
-        <van-cell is-link bind:click="showPopup">
-          <view slot="icon">
-            <van-icon name="chat-o" color="#1989fa" />
-          </view>
-          <view slot="title">
-            <view class="van-cell-text">在哪里取件<text class="must">(必填)</text></view>
-          </view>
-          <view class="content">111</view>
-        </van-cell>
-        <van-popup show="{{ show }}" bind:close="onClose" position="bottom" custom-style="height: 50%;"
-          bind:close="onClose" round>
-
-          <van-picker show-toolbar title="选择你要的选项" columns="{{ columns }}" bind:cancel="onCancel" bind:confirm="onConfirm" loading="{{isLoading}}" />
-
-          <van-toast id="van-toast" />
-
-        </van-popup>
-      </view>
-      <van-cell title="单元格" is-link value="内容" />
+      <my-cell columns="{{columns1}}" cellItem="{{cellItem1}}" />
+      <my-cell columns="{{columns5}}" cellItem="{{cellItem5}}" />
     </van-cell-group>
     <van-cell-group title="分组2">
-      <van-cell title="单元格" is-link value="内容" />
+      <my-cell columns="{{columns2}}" cellItem="{{cellItem2}}" />
+      <my-cell columns="{{columns3}}" cellItem="{{cellItem3}}" />
+      <my-cell columns="{{columns4}}" cellItem="{{cellItem4}}" />
     </van-cell-group>
+
+    <!-- 轻提示 -->
+    <van-toast id="van-toast" />
   </view>
+
+  <!-- 底部操作栏目 -->
+  <view class="control">
+    <view class="left">
+      <text>实付款：￥2.00</text>
+    </view>
+    <view class="right">
+      <text>立即支付</text>
+    </view>
+  </view>
+
 </view>

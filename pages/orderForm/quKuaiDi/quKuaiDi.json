@@ -6,7 +6,8 @@
     "van-cell": "@vant/weapp/cell/index",
     "van-cell-group": "@vant/weapp/cell-group/index",
     "van-popup": "@vant/weapp/popup/index",
-    "van-toast": "@vant/weapp/toast/index"
+    "van-toast": "@vant/weapp/toast/index",
+    "my-cell":"/components/my-cell/my-cell"
   },
   "navigationBarTitleText": "下单"
 }

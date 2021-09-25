@@ -17,10 +17,19 @@ Page({
   },
 
   // 跳转到订单详情界面
-  goToOrderDetail(event){
+  goToOrderDetail(event) {
     console.log(event)
     wx.navigateTo({
       url: '/pages/orderDetail/orderDetail',
+    })
+  },
+
+  // 功能跳转
+  goTo(event) {
+    console.log(event)
+    let url = event.currentTarget.dataset.url
+    wx.navigateTo({
+      url
     })
   },
 

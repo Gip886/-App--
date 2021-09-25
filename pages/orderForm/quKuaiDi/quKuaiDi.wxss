@@ -8,7 +8,7 @@
 .header {
   height: 150rpx;
   background-color: #fff;
-  box-shadow: 0 0 2rpx #ededed;
+  box-shadow: 0 -3rpx 3rpx #ededed;
   display: flex;
   padding: 20rpx;
 }
@@ -19,25 +19,61 @@
   font-size: 28rpx;
   color: #7a7979d8;
 }
+
 /* 上传图片区域 */
-.upload{
+.upload {
   margin-top: 20rpx;
   width: 100%;
   background-color: #fff;
   /* border: 1rpx solid black; */
   padding: 20rpx;
 }
-.upload .title{
+
+.upload .title {
   margin-bottom: 20rpx;
   font-weight: 500;
 }
 
-.form .must{
-  color: orange;
+.control {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 2rpx #ededed;
 }
-.form .van-cell-text{
-  color: black;
+
+.control .left {
+  width: 50%;
+  /* background-color: violet; */
+  display: flex;
+
 }
-.form .content{
-  color: rgb(224, 132, 27);
+
+.control .right {
+  width: 50%;
+  /* background-color: tomato; */
+  display: flex;
+}
+
+.control .right text {
+  width: 80%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: rgb(13, 212, 79);
+  margin: auto;
+  color: #fff;
+  border-radius: 15rpx;
+}
+.control .left text{
+  width: 80%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: auto;
+  color: #f39c12;
 }

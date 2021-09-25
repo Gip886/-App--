@@ -4,6 +4,17 @@ import Toast from '/@vant/weapp/toast/toast';
 let uploadIndex = 0
 let uploadArr = []
 
+const citys = {
+  浙江: ['杭州', '宁波', '温州', '嘉兴', '湖州'],
+  福建: ['福州', '厦门', '莆田', '三明', '泉州'],
+};
+
+const dateData = {
+  [new Date().getUTCDate()]:['00:00','00:30'],
+  [new Date().getUTCDate()+1]:['00:00','00:30'],
+  [new Date().getUTCDate()+2]:['00:00','00:30'],
+}
+
 Page({
 
   /**
@@ -25,32 +36,37 @@ Page({
     ],
     // 弹出层
     show: false,
-    columns: ['杭州', '宁波', '温州', '嘉兴', '湖州'],
-    isLoading: false
-  },
-  onConfirm(event) {
-    const {
-      picker,
-      value,
-      index
-    } = event.detail;
-    Toast(`当前值：${value}, 当前索引：${index}`);
+    columns1: ['菜鸟驿站（综合楼）', '菜鸟驿站71号店', '菜鸟驿站43号店', '丰巢快递柜'],
+    cellItem1: {
+      icon: 'shopping-cart-o',
+      title: '取件地',
+      must: true,
+    },
+    columns2: ['小于5斤', '5-10斤', '10-20斤', '20-50斤'],
+    cellItem2: {
+      title: '物品重量',
+    },
+    columns3: ['不限性别', '限男生', '限女生'],
+    cellItem3: {
+      title: '抢单限制',
+    },
+    columns4: ['1小时内', '2小时内', '3小时内'],
+    cellItem4: {
+      title: '订单自动取消',
+    },
+    columns5: [
+      {
+        values: Object.keys(dateData),
+        className: 'column1',
+      },
+      {
+        values: dateData['25'],
+        className: 'column2',
+        defaultIndex: 2,
+      },
+    ],
   },
 
-  onCancel() {
-    Toast('取消');
-  },
-  showPopup() {
-    this.setData({
-      show: true
-    });
-  },
-
-  onClose() {
-    this.setData({
-      show: false
-    });
-  },
   afterRead(event) {
     console.log(event)
     const {

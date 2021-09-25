@@ -20,7 +20,7 @@
         <text class="content">足不出户，直通校园</text>
       </view>
       <view class="fItems">
-        <view class="fItem">
+        <view class="fItem" bindtap="goTo" data-url="/pages/orderForm/quKuaiDi/quKuaiDi">
           <view class="left">
             <text class="title">取快递</text>
             <text class="show">顺丰菜鸟</text>
